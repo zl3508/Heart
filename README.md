@@ -23,7 +23,7 @@ It includes demographic, lifestyle, medical history, and physiological features,
 The script to reproduce all the figures and tables in the paper is as follows:
 - `original.ipynb`: training setting search (before feature processing) by ROC analysis.
 - `healthcare.ipynb`: training setting search (after feature processing) by ROC analysis for multiple classifiers below:
-   - traditional machine learning models: Decision Tree (DT), Logistic Regression (LR), Naive Bayes (NB), K-Nearest Neighbors (KNN), Gradient Boosting (GB) and ElasticNet,
+   - traditional machine learning models: Decision Tree (DT), Logistic Regression (LR), Naive Bayes (NB), K-Nearest Neighbors (KNN), Gradient Boosting (GB) and ElasticNet.
    - deep learning models: Multilayer Perceptron (MLP), CNN, ResNet, RNN, Transformers, and KAN. 
 - `PCA and t-sne.ipynb`: PCA analysis and t-sne analysis in feature engineering
 
